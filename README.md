@@ -29,6 +29,49 @@ duas VMs; <br />
 de instalação do Linux
 </p>
 
+## Instalando o Linux
+
+<p>[ISO Oracle Linux](https://yum.oracle.com/ISOS/OracleLinux/OL8/u6/x86_64/OracleLinux-R8-U6-x86_64-dvd.iso)
+<p/>
+  
+Na tela INSTALLATION SUMARY, altere em:
+
+#### LOCALIZATION
+
+<p>
+KEYBOARD = Portugues; <br/>
+LANGUAGE SUPPORT = Inglês; <br/>
+TIME & DATE = São Paulo; <br/>
+<p/>
+
+#### SOFTWARE
+
+<p>
+INSTALLATION SOURCE = Local Media - Não alterar; <br/>
+SOFTWARE SELECTION = Minimal Install; <br/>
+<p/>
+  
+#### SYSTEM 
+
+<p>
+KDUMP = Enable - Não alterar; <br/>
+NETWORK & HOSTNAME = ON Ethernet(enp0s3); <br/>
+INSTALLATION DESTINATION = Em "LOCAL STANDARD DISK" selecionar o SDA. <br/>
+Para particionar o disco, em "STORAGE CONFIGURATION" selecionar a opção "Custom" e clicar em "Done". <br/>
+Surgirá a tela "MANUAL PARTITIONING", clique em "+" para adicionar as partições do disco uma a uma. <br/>
+<p/>
+
+Clique em "Done" e em "Accept Changes".
+
+#### USER SETTINGS
+
+<p>  
+ROOTPASSWORD = Crie a senha do Root; <br/>
+USER CREATION = Crie um usuário; <br/>
+<p/>
+
+Clique em "Begging Installation".
+
 ## Passo a passo
 
 ### Alterando Hostname
